@@ -1,21 +1,13 @@
-# Ignore bundler config.
-/.bundle
-
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
-
-# Ignore all logfiles and tempfiles.
-/log/*.log
-/tmp
-
-# Ignore other unneeded files.
-database.yml
-doc/
+.env
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+.idea/
 *.swp
 *~
-.project
-.DS_Store
-.idea
-.secret
-.env
